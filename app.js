@@ -2,9 +2,10 @@ const brick = document.getElementById('brick');
 const triangle = document.getElementById('triangle');
 const circle = document.getElementById('circle');
 const pentagon = document.getElementById('pentagon');
+const star = document.getElementById('star')
 
 const buttons = document.getElementById('btns');
-let x = -20
+let x = -10
 let y = -30
 
 let tx = -104
@@ -18,6 +19,8 @@ brick.style.transform = `rotateX(${x}deg) rotateY(${y}deg)`
 triangle.style.transform = `rotateX(${tx}deg) rotateY(0deg) rotateZ(${ty}deg)`
 circle.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
 pentagon.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
+star.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
+
 
 
 buttons.addEventListener('click', (e) => {
@@ -45,6 +48,7 @@ buttons.addEventListener('click', (e) => {
 triangle.style.transform = `rotateX(${tx}deg) rotateY(0deg) rotateZ(${ty}deg)`
 circle.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
 pentagon.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
+star.style.transform = `rotateX(${cx}deg) rotateY(${cy}deg)`
 
 
 })
