@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>3d figures</title>
+</head>
+<body>
+  <div class="wrapper">
+     <div class="container" id="brick">
+    <div class="side"></div>
+    <div class="side"></div>
+    <div class="side"></div>
+    <div class="side"></div>
+    <div class="side"></div>
+    <div class="side"></div>
+  </div>
+  <div class="triangle_container" id="triangle">
+    <div class="triangle">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0, 200 200, 200 100, 0" fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+    </div>
+    <div class="triangle">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0, 100 200, 0 200, 200 " fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+    </div>
+    <div class="triangle">
+      
+    </div>
+    <div class="triangle">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0, 0 200, 100 0, 200 " fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+    </div>
+    <div class="triangle">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0, 0 200,0 100, 200 " fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+    </div>
+  </div>
+  <div class="circle_container" id="circle">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  </div>
+
+  <div class="pentagon_container" id="pentagon">
+    <div class="pentagon"></div>
+    <div class="pentagon"></div>
+    <div class="pentagon">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="100, 0 200,90 159,200 41,200 0,90 " fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+      </svg>
+    </div>
+    <div class="pentagon"></div>
+    <div class="pentagon"></div>
+    <div class="pentagon"></div>
+    <div class="pentagon">
+      <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="100, 0 200,90 159,200 41,200 0,90 " fill="white" fill-opacity="0.7" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+    </div>
+  </div>
+ 
+  <div class="button_wrapper" id="btns">
+    <button id="left">←</button>
+    <div class="center_btns">
+      <button id="up">↑</button>
+      <button id="down">↓</button>
+    </div>
+    <button id="right">→</button>
+  </div>
+</body>
+</html>
